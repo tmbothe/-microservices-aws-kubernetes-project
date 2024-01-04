@@ -38,7 +38,7 @@ helm install cowo-project cowo-project/postgresql
 3. Write a simple build pipeline with AWS CodeBuild to build and push a Docker image into AWS ECR.
 Using the  docker image generated above, we are going to create a repository in AWS to host our container. 
   a. Screenshot of AWS CodeBuild pipeline.
-  ![codepipeline](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/images/codebuildpipeline.png)
+  ![codepipeline](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/codebuildpipeline.png)
   b. Take a screenshot of AWS ECR repository for the application's repository
 
 4. Create a service and deployment using Kubernetes configuration files to deploy the application
