@@ -63,7 +63,7 @@ For our AWS deployment, we will be create a cluster with two subnets. Then two c
 
    [database]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/c_kubectl_svc_database_servicename.png)
 
-  **d. Screenshot of kubectl describe deployment <SERVICE_NAME>.**
+  **d. Screenshot of kubectl describes deployment <SERVICE_NAME>.**
 
    [servicename]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/d_deployment_servicename.png)
 
