@@ -4,10 +4,10 @@
 
 The Coworking Space Service is a set of APIs that enables users to request one-time tokens and administrators to authorize access to a coworking space. This service follows a microservice pattern and the APIs are split into distinct services that can be deployed and managed independently of one another.
 
-This project simulates a DevOps engineer role who is collaborating with a team that is building an API for business analysts. The API provides business analysts basic analytics data on user activity in the service. The application they provide you functions as expected locally and you are expected to help build a pipeline to deploy it in Kubernetes.
+This project simulates a DevOps engineer role collaborating with a team to build an API for business analysts. The API provides business analysts with basic analytics data on user activity in the service. The application they provide you functions as expected locally and you are expected to help build a pipeline to deploy it in Kubernetes.
 
 ### Dependencies
-This project will be built locally, then apply to an AWS environment , therefore, the softwares below should be install locally, and an AWS account should be created.
+This project will be built locally and then applied to an AWS environment, therefore, the software below should be installed locally, and an AWS account should be created.
 
 #### Local Environment
 1. Python Environment - run Python 3.6+ applications and install Python dependencies via `pip`
@@ -38,7 +38,7 @@ helm install cowo-project cowo-project/postgresql
 3. Write a simple build pipeline with AWS CodeBuild to build and push a Docker image into AWS ECR.
 Using the  docker image generated above, we are going to create a repository in AWS to host our container. 
   a. Screenshot of AWS CodeBuild pipeline.
-  !(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/d9ff910e5c3622e40b2fadd8c6046a70d257f1b7/images/codebuildpipeline.png)
+  ![codepipeline](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/d9ff910e5c3622e40b2fadd8c6046a70d257f1b7/images/codebuildpipeline.png)
   b. Take a screenshot of AWS ECR repository for the application's repository
 
 4. Create a service and deployment using Kubernetes configuration files to deploy the application
