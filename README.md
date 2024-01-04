@@ -39,40 +39,40 @@ helm install cowo-project cowo-project/postgresql
 Using the  docker image generated above, we are going to create a repository in AWS to host our container. 
   **a. Screenshot of AWS CodeBuild pipeline.**
 
-  [codepipeline]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/codebuildpipeline.png)
+  ![codepipeline](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/codebuildpipeline.png)
 
   **b. Take a screenshot of AWS ECR repository for the application's repository**
 
-  [ecr]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/ecr_repository.png)
+  ![ecr](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/ecr_repository.png)
 
 **4. Create a service and deployment using Kubernetes configuration files to deploy the application**
 In this section, we will be creating a service and deployment using Kubernetes. The configuration file is included in this repository called ``` database.yaml```.
 
 **5. You'll submit all the Kubernetes config files used for deployment (ie YAML files).**
-For our AWS deployment, we will be create a cluster with two subnets. Then two compute nodes with AMI ```AL2_ARM_64``` and instance type ```m6g.large ```
+For our AWS deployment, we will create a cluster with two subnets. Then two compute nodes with AMI ```AL2_ARM_64``` and instance type ```m6g.large ```
  Below are the different deployment output:
   **a. Screenshot of running the kubectl get svc command.**
 
-   [service]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/a_kubectl_get_services.png)
+   ![service](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/a_kubectl_get_services.png)
 
   **b. Screenshot of kubectl get pods.**
 
-   [pods]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/b_kubectl_get_pods.png)
+   ![pods](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/b_kubectl_get_pods.png)
 
   **c. Screenshot of kubectl describe svc <DATABASE_SERVICE_NAME>.**
 
-   [database]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/c_kubectl_svc_database_servicename.png)
+   ![database](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/c_kubectl_svc_database_servicename.png)
 
   **d. Screenshot of kubectl describes deployment <SERVICE_NAME>.**
 
-   [servicename]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/d_deployment_servicename.png)
+   ![servicename](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/d_deployment_servicename.png)
 
  **6. Checking AWS CloudWatch for application logs.**
     screenshot of AWS CloudWatch logs for the application 
 
-   [cpu]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/cpu.png)
+   ![cpu](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/cpu.png)
 
-   [network]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/network.png)
+   ![network](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/network.png)
 
-   [container]!(https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/containerInsight.png)
+   ![container](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/containerInsight.png)
 
