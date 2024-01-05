@@ -68,7 +68,7 @@ For our AWS deployment, we will create a cluster with two subnets. Then two comp
    ![servicename](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/d_deployment_servicename.png)
 
  **6. Checking AWS CloudWatch for application logs.**
-    screenshot of AWS CloudWatch logs for the application 
+    screenshots of AWS CloudWatch logs for the application. 
 
    ![cloudwatch1](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/cloudwatch1.png)
 
