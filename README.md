@@ -36,7 +36,8 @@ helm repo add cowo-project https://charts.bitnami.com/bitnami
 helm install cowo-project cowo-project/postgresql
 ```
 **3. Write a simple build pipeline with AWS CodeBuild to build and push a Docker image into AWS ECR.**
-Using the  docker image generated above, we are going to create a repository in AWS to host our container. 
+Using the  docker image generated above, we are going to create a repository in AWS to host our container. The build
+will automatically be triggered by a pull request.
   **a. Screenshot of AWS CodeBuild pipeline.**
 
   ![codepipeline](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/codebuildpipeline.png)
