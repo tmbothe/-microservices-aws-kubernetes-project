@@ -43,7 +43,7 @@ Using the  docker image generated above, we are going to create a repository in 
 
   **b. Take a screenshot of AWS ECR repository for the application's repository**
 
-  ![ecr](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/ecr_repository.png)
+  ![ecr](https://github.com/tmbothe/microservices-aws-kubernetes-project/blob/main/images/ecr2.png)
 
 **4. Create a service and deployment using Kubernetes configuration files to deploy the application**
 In this section, we will be creating a service and deployment using Kubernetes. The configuration file is included in this repository called ``` database.yaml```.
